@@ -25,14 +25,20 @@ $ pip install -r requirements.txt
 ```
 
 To run the application you must first setup environment variables like so:
-<h4>Mac</h4>
-```bash
-$ export FLASK_APP=application
-$ export FLASK_ENV=development
+### Mac
+bash
+
 ```
 
-<h4>Linux</h4>
-```bash
+$ export FLASK_APP=application
+$ export FLASK_ENV=development
+
+```
+
+### Linux
+bash
+
+```
 > set FLASK_APP=application
 > set FLASK_ENV=development
 ```
@@ -75,11 +81,16 @@ Tip: Look at `index` and `create` functions respectively.
  <li>Try to edit a post again, now it should be working, if not, you did something wrong!</li>
 </ul>
 
-<h2>Running tests</h2>
+## Running tests
 If all assignments are done correctly then all tests should pass.
 (You can also run the tests inside PyCharm, it makes no difference.)
-```bash
+
+bash
+
+```
+
  python -m pytest tests
+
 ```
 
 <h2>Assignment 2</h2>
