@@ -19,7 +19,7 @@ It is also recommended googling the underlined words ;).
 FORK the repository to your local machine (if you haven't already). I do recommend the web version, but it is up to you.
 <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">HINT</a>
 
-<h4>Install all necessary packages</h4>
+### Install all necessary packages</h4>
 bash
 
 ```
@@ -53,13 +53,16 @@ bash
 > $env:FLASK_ENV = "development"
 ```
 
-<h3>Init DB</h3>
-```bash
+### Init DB
+bash
+
+```
 flask init-db
 ```
-<h3>Run</h3>
+### Run
+bash
 
-```bash
+```
 flask run
 ```
 
