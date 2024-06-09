@@ -1,6 +1,6 @@
 PS! Use Python version `3.8`!!!
 
-<h1>Developer and Databeses 101</h1>
+# Developer and Databeses 101
 
 NB! If you have questions you can write to Karel Paan <code>(karelpaan#2890)</code> in Discord chat ;)
 
@@ -14,7 +14,7 @@ This is not to say it is good or bad, although nowadays using <u>microservice ar
 
 It is also recommended googling the underlined words ;).
 
-<h2>Setup</h2>
+## Setup
 
 FORK the repository to your local machine (if you haven't already). I do recommend the web version, but it is up to you.
 <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">HINT</a>
@@ -45,8 +45,10 @@ bash
 > set FLASK_ENV=development
 ```
 
-<h4>Windows</h4>
-```bash
+### Windows
+bash
+
+```
 > $env:FLASK_APP = "application"
 > $env:FLASK_ENV = "development"
 ```
@@ -56,6 +58,7 @@ bash
 flask init-db
 ```
 <h3>Run</h3>
+
 ```bash
 flask run
 ```
